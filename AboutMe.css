@@ -1,0 +1,48 @@
+body {
+  background-color: #414a4c;
+  padding: 0;
+  margin: 0;
+  font-family:monospace;
+  font-size: 16px;
+}
+
+*, * ::before, *::after {
+	box-sizing:border-box;
+}
+
+.navlist {
+  background-color: #414a4c;
+  /* background-color: #ffd3b5; */
+   text-transform: uppercase;
+   padding: 10px;
+   display: 10px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing:
+}
+.banner {
+  ;
+  min-height: 300px;
+  background-size: 200%;
+  display: flex;
+  justify-content:flex-start;
+  flex-grow: 3;
+
+}
