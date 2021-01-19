@@ -1,48 +1,57 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+
 body {
-  background-color: #414a4c;
-  padding: 0;
-  margin: 0;
-  font-family:monospace;
+  /*background-color: #414a4c;*/
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Quattrocento', serif;
   font-size: 16px;
 }
 
-*, * ::before, *::after {
-	box-sizing:border-box;
-}
-
-.navlist {
-  background-color: #414a4c;
-  /* background-color: #ffd3b5; */
-   text-transform: uppercase;
-   padding: 10px;
-   display: 10px;
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-end;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-* {
-  box-sizing:
+a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  postion: relative;
 }
-.banner {
-  ;
-  min-height: 300px;
-  background-size: 200%;
+
+nav {
+   background-color: #ffd3b5;
+   text-transform: uppercase;
+   padding: 20px;
+
+   @media (min-width: 600px)
+       padding: 20px;
+ }
+
+.jumbotron {
+  margin: 10px;
+  padding: 145px 40px;
+  background-color: #fc9d9a;
+  color: #ffffff;
+  font-family: 'Fanwood Text', serif;
+  font-size: 40px;
   display: flex;
-  justify-content:flex-start;
-  flex-grow: 3;
+  flex-direction: column;
+}
 
+.button
+ {
+  background-color: #fc9d9a;
 }
