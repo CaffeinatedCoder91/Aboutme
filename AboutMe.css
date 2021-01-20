@@ -106,5 +106,15 @@ img {
     border:  10px;
     display: flex;
     justify-content: space-around;
+}
 
+.form_container  {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Fanwood Text', serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding: 1px 10px;
+    border: 10px;
 }
