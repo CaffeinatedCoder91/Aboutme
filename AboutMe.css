@@ -85,21 +85,36 @@ h2 {
 } */
 
 
-
-
-
-
 .portfolio {
-  margin: 10px;
-  padding: 145px 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  padding: 1px 40px;
+  border: 10px;
+  background-color: #fc9d9a;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
   background-color: #fc9d9a;
   color: #ffffff;
   font-family: 'Fanwood Text', serif;
-  font-size: 20px;
-  display: flex;
-  flex-direction: row;
 }
 
+.container2 {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      background-color: #fc9d9a;
+      color: #ffffff;
+      font-family: 'Fanwood Text', serif;
+}
+
+.image {
+  flex-basis: 50%
+  padding: 10px;
 
 
 footer {
