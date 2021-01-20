@@ -1,20 +1,9 @@
-html {
-  font-size: 100%;
-  box-sizing: border-box;
-}
+nav {
+   background-color: #ffd3b5;
+   text-transform: uppercase;
+   padding: 20px;
 
-
-body {
-  /*background-color: #414a4c;*/
-  padding: 0px;
-  margin: 0px;
-  font-family: 'Quattrocento', serif;
-  font-size: 16px;
-}
-
-*, *::before, *::after {
-    box-sizing: inherit;
-}
+ }
 
 ul {
   list-style-type: none;
@@ -31,14 +20,6 @@ a {
   postion: relative;
 }
 
-nav {
-   background-color: #ffd3b5;
-   text-transform: uppercase;
-   padding: 20px;
-
-   @media (min-width: 600px)
-       padding: 20px;
- }
 
 .jumbotron {
   margin: 10px;
@@ -51,7 +32,76 @@ nav {
   flex-direction: column;
 }
 
-.button
- {
+
+.title {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  padding: 1px 40px;
+  border: 10px;
   background-color: #fc9d9a;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #fc9d9a;
+  color: #ffffff;
+  font-family: 'Fanwood Text', serif;
+}
+
+
+.container1 {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      background-color: #fc9d9a;
+      color: #ffffff;
+      font-family: 'Fanwood Text', serif;
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 50%
+  padding: 10px;
+
+}
+
+.text {
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Fanwood Text', serif;
+}
+
+/*
+h2 {
+  font-family: 'Quattrocento', serif;
+
+} */
+
+
+
+
+
+
+.portfolio {
+  margin: 10px;
+  padding: 145px 40px;
+  background-color: #fc9d9a;
+  color: #ffffff;
+  font-family: 'Fanwood Text', serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+footer {
+  margin: 10px;
 }
