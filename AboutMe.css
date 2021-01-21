@@ -1,48 +1,218 @@
-body {
-  background-color: #414a4c;
-  padding: 0;
-  margin: 0;
-  font-family:monospace;
-  font-size: 16px;
+html {
+     font-family: 'Fanwood Text', serif;
+     font-size: 16px;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-bottom: 0px;
 }
 
-*, * ::before, *::after {
-	box-sizing:border-box;
+nav {
+    background-color: #ffd3b5;
+    text-transform: uppercase;
+    padding: 16px;
+
+
+ }
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navlist {
-  background-color: #414a4c;
-  /* background-color: #ffd3b5; */
-   text-transform: uppercase;
-   padding: 10px;
-   display: 10px;
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-end;
+a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    postion: relative;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
+.jumbotron {
+    padding: 145px 40px;
+    background-color: #fc9d9a;
+    color: #ffffff;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 
+.title {
+    padding: 1px 40px;
+    border: 10px;
+    background-color: #ffd3b5;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    background-color: #fc9d9a;
+    color: #ffffff;
+}
+
+.container1 p {
+    font-size: 1.125rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container1 .profilepic {
+    width: auto;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.portfolio {
+
+    padding: 1px 40px;
+    border: 10px;
+    background-color: #ffd3b5;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.grid {
+    margin-top: 0px;
+    box-sizing: border-box;
+    background: #fc9d9a;
+    padding: 48px 16px;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    margin: none;
+    padding: none;
 }
 
-* {
-  box-sizing:
+figure {
+    margin: 0;
 }
-.banner {
-  ;
-  min-height: 300px;
-  background-size: 200%;
-  display: flex;
-  justify-content:flex-start;
-  flex-grow: 3;
 
+figcaption {
+    font-style: italic;
+    font-size: 0.8em;
+    color: #ffffff;
+    line-height: 1.4; }
+}
+
+.grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 90%;
+    grid-gap: 16px;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding: 32px 16px;
+    background: white;
+}
+
+.grid .grid_figure {
+  width: 40%;
+  height: 200px;
+  padding: 100px;
+}
+.container2 {
+    background-color: #fc9d9a;
+    display:flex;
+}
+
+.container2 .image1 {
+    padding: 10px;
+    border:  10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_container  {
+    background-color: #fc9d9a;
+    margin-top: 10px;
+    padding: 1px 40px;
+    border: 10px;
+    background-color: #fc9d9a;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #ffd3b5;
+    color: #ffffff;
+}
+
+.form_container p {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.form_container_2 {
+    width: auto;
+    margin-bottom: 0px;
+    padding: 150px;
+    padding-top: 20px;
+    border: 10px;
+    color: #ffffff;
+    background-color: #ffd3b5;
+    color: #ffffff;
+}
+
+input {
+    width: 100px;
+}
+
+.feedback-input {
+    color: white;
+    font-weight:500;
+    font-size: 1.125rem;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input:focus {
+    border:2px solid #CC4949;
+}
+
+textarea {?|"";
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+[type="submit"] {
+    width: 100%;
+    background:#CC6666;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+[type="submit"]:hover {
+    background:#CC4949;
+}
+
+footer {
+    margin-left: 10px;
 }

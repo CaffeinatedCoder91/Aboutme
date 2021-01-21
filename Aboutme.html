@@ -1,60 +1,84 @@
-<!DOCTYPE>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="Aboutme.css" type="text/css">
-  <link rel="stylesheet" href="normalize.css" type="text/css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <!-- find out how to link fonts -->
-</head>
+<!DOCTYPE html>
 
-<body>
+<html lang="en-GB">
+     <head>
+        <title>joanna</title>
+          <meta charset="utf-8">
+          <link rel="stylesheet" href="Aboutme.css" type="text/css">
+          <link rel="stylesheet" href="normalize.css" type="text/css">
+          <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap" rel="stylesheet">
+     </head>
 
-  <header>
-    <nav class="navbar">
-       <ul class="navlist">
-         <li><a href="#">Home</a></li>
-         <li><a href="#about">About</a></li>
-         <li><a href="#portfolio">Portfolio</a></li>
-         <li><a href="#contact">Contact </a></li>
-       </ul>
+
+  <body>
+      <nav>
+        <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#aboutnav">About</a></li>
+           <li><a href="#portfolio">Portfolio</a></li>
+           <li><a href="#contact">Contact</a></li>
+        </ul>
      </nav>
-      <section class="banner">
+
+
+      <section class="jumbotron">
           <h1>Joanna Joseph</h1>
-          <p>Full Stack Developer</p>
-       </section>
-
-
-        <section class="">  <!-- find a downbutton -->
-             <button class="">See My Work</button>
-        </section>
-
-</header>
-
+          <p> Junior Full Stack Developer</p>
+      </section>
 
 
     <main>
-        <section class="">
-          <h2>About Me<h2>
-          <p>Hey, I am JoJo. Previously living life as a barista trainer, spreading the caffeinated love to the masses.
-             I decided it was time to start a new stage of my life and train to become a Junior Full Stack Developer.
-             I have been given an amazing opportunity do so, at the 6th best coding bootcamp in the world <a href="">iO Academy</a>
-             Starting from the HTML and CSS, with so much more to learn, what a wonderful journey this will be.
+        <section class="title">
+            <h2>About Me </h2>
+        </section>
+
+        <section class="container1">
+            <img class="profilepic" src="20201213_200813.jpg" alt="Profile Picture of the Joanna"  width="350" height="350">
+            <p>Hey, I am JoJo. Previously living life as a Barista Trainer and Coffee Roaster, spreading the caffeinated love to the masses. I decided it was time to start a new stage of my life and train to become a Junior Full Stack Developer. I have been given an amazing opportunity do so, at the 6th best coding bootcamp in the world <a href="https://io-academy.uk/">iO Academy.</a> Starting from the foundations of HTML and CSS, with so much more to learn.</p>
         </section>
 
         <section class="portfolio">
-          <h2>Portfolio<h2> <!-- find 3 images-->
-            <img src="abstract-1171774.jpg">
-            <img src="abstract-1171774.jpg">
-            <img src="abstract-1171774.jpg">
+           <p>Portfolio</p>
         </section>
 
-        <section class="contact">
-        </section>
-     </main>
+      <ul class="grid">
+         <li>
+            <figure class="grid__figure">
+               <img src="black-n-white-1398010.jpg" alt="Pictures of a forest" width="250" height="200">
+               <figcaption>This is Project 1. I learnt about HTML</figcaption>
+            </figure>
+         </li>
 
-       <footer class="copyright">
+         <li>
+             <figure class="grid__figure">
+               <img src="black-n-white-1398010.jpg" alt="Pictures of a forest" width="250" height="200">
+               <figcaption>This is Project 2. I learnt about CSS</figcaption>
+             </figure>
+        </li>
+
+           <li>
+              <figure class="grid__figure">
+                  <img src="black-n-white-1398010.jpg" alt="Pictures of a forest" width="250" height="200">
+                  <figcaption>This is Project 3. I learnt about GIT</figcaption>
+             </figure>
+          </li>
+       </ul>
+
+
+      <section class="form_container">
+           <p>Contact</p>
+      </section>
+
+
+            <form class="form_container_2">
+               <input name="name" type="text" class="feedback-input" placeholder="Name" />
+               <input name="email" type="text" class="feedback-input" placeholder="Email" />
+               <textarea name="text" class="feedback-input" placeholder="Lets Chat"></textarea>
+               <input type="submit" value="SEND"/>
+          </form>
+
+
+       <footer>
         <p>© Copyright © 2021 | All rights reserved | By Joanna Joseph</p>
       </footer>
 
