@@ -49,19 +49,19 @@ a {
 }
 
 .container1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+    justify-content: space-around;
     margin-bottom: 10px;
     padding-bottom: 50px;
     background-color: #fc9d9a;
     color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .container1 p {
-    font-size: 1.125rem;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 1.5rem;
+    width: 400px;
 }
 
 .container1 .profilepic {
@@ -86,6 +86,9 @@ a {
     box-sizing: border-box;
     background: #fc9d9a;
     padding: 48px 16px;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 ul {
@@ -116,11 +119,6 @@ figcaption {
     background: white;
 }
 
-.grid .grid_figure {
-  width: 40%;
-  height: 200px;
-  padding: 100px;
-}
 .container2 {
     background-color: #fc9d9a;
     display:flex;
